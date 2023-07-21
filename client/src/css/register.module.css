@@ -1,0 +1,60 @@
+
+.register {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	height: 100vh;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 2px;
+
+	width: 326px;
+	height: 46px;
+
+	border: 1px solid transparent;
+
+	background: #f5dd64;
+	border-radius: 8px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 140%;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.5px;
+
+	color: #000000;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #FFF279;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #000000;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #f1e8a2;
+}

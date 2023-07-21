@@ -1,0 +1,95 @@
+.menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(5px);
+	padding: 40px 20px;
+	z-index: 999;
+}
+
+.menu-body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 24px;
+	margin: 25px 20px;
+}
+
+.nav {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	gap: 24px;
+	list-style: none;
+}
+
+.nav-item {
+	padding: 2px;
+}
+
+
+
+.nav-item a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+
+.nav-item a:hover {
+	color: #ffffff8b;
+}
+
+.btn-group {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+	gap: 20px;
+}
+
+.menuCLose {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0px 20px;
+}
+
+.close {
+	width: 34px;
+	height: 34px;
+
+	color: white;
+}
+
+.menu-location {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.location-icon {
+	width: 26px;
+	height: 26px;
+	color: white;
+}
+
+.menu-location span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
+
+	color: #ffffff;
+}

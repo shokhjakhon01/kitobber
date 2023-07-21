@@ -1,0 +1,20 @@
+.option {
+	display: flex;
+	margin: 50px auto 0px;
+	max-width: 1056px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 15px;
+}
+
+@media only screen and (max-width: 1086px) {
+	.option {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		gap: 20px;
+	}
+}

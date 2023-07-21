@@ -1,0 +1,153 @@
+.detail {
+	margin: 120px auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 250px;
+	padding: 0 20px;
+}
+
+.detail-page {
+	background: #fffce4;
+}
+
+.detail-main {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 60px;
+}
+
+.detail-body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.detail-body h2 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.detail-body h4 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.detail-body p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	/* or 167% */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+
+	color: #242424;
+}
+.detail-infor {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.detail-infor p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.detail-infor p span {
+	color: #00000066;
+}
+
+.innerImg {
+	display: none;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.user-infor {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.user-infor > p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.slider {
+	width: 100%;
+}
+
+@media only screen and (max-width: 1332px) {
+	.detail-main {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.detail-body {
+		align-items: center;
+	}
+
+	.detail-body p {
+		max-width: 400px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 758px) {
+	.detail-main > img {
+		display: none;
+	}
+
+	.innerImg {
+		display: flex;
+		width: 335px;
+	}
+}

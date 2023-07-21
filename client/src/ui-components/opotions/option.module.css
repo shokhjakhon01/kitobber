@@ -1,0 +1,55 @@
+.option {
+	max-width: 249px;
+	width: 100%;
+	margin: 0px auto;
+	border: 1px solid #c4c4c4;
+	border-radius: 10px;
+}
+
+.admin-tool {
+	width: 100%;
+	padding: 18px 20px;
+	border: none;
+	background: #eeeeee;
+	border-radius: 8px;
+	outline: none;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #242424;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url('../../../public/Vector.svg') 93% / 7% no-repeat #eeeeee;
+}
+
+.admin-select {
+
+	width: 100%;
+	padding: 18px 20px;
+	border: none;
+	background: #fffce4;
+	border-radius: 8px;
+	outline: none;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #242424;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url('../../../public/Vector.svg') 93% / 7% no-repeat #fffce4;
+}
+
+.optionEl {
+	padding: 11px 20px !important;
+	border-bottom: 1px solid #211f1f !important;
+}

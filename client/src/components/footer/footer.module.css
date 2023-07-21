@@ -1,0 +1,155 @@
+.footer {
+	background: #242424;
+	margin-top: 100px;
+}
+
+.footer-main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 20px 0px 20px;
+}
+
+.btn-group {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 26px;
+	list-style: none;
+}
+
+.nav-item {
+	padding: 2px;
+}
+
+.active {
+	font-weight: 700 !important;
+
+	text-decoration-line: underline;
+}
+
+.nav-item a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+
+.nav-item a:hover {
+	color: #ffffff56;
+}
+
+.footerEco {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 80px 0px 0px;
+}
+
+.devider {
+	opacity: 0.2;
+	border: 1px solid #ffffff;
+	position: absolute;
+	top: 383px;
+	width: 100%;
+	left: 0;
+}
+
+.footer-faq {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.title {
+	width: 159px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+}
+
+.network {
+	display: flex;
+	align-items: center;
+	padding: 50px 20px;
+	justify-content: space-between;
+}
+
+.network p {
+	font-family: 'Roboto	';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 28px;
+	/* identical to box height, or 165% */
+
+	color: #ffffff;
+}
+
+.socials {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.icon-wrapper {
+	background: #ffffff;
+	opacity: 0.3;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}
+
+@media only screen and (max-width: 1227px) {
+	.footer-main {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.footer-main:first-child {
+		align-items: flex-start;
+	}
+
+	.nav {
+		margin: 0px auto;
+	}
+
+	.btn-group {
+		margin: 0px auto;
+	}
+}
+
+@media only screen and (max-width: 808px) {
+	.network {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+
+@media only screen and (max-width: 692px) {
+	.nav {
+		flex-direction: column;
+	}
+}

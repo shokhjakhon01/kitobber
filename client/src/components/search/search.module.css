@@ -1,0 +1,101 @@
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 52px;
+}
+
+.formControl {
+	max-width: 686px;
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+.formControl input {
+	padding: 18px 0px 18px 54px;
+	border: 1px solid #c4c4c4;
+	max-width: 536px;
+	width: 100%;
+	border-radius: 10px 0px 0px 10px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	outline-color: #c4c4c4;
+
+	color: #000000;
+
+	opacity: 0.5;
+}
+
+.submit {
+	max-width: 139px;
+	width: 100%;
+	background: #242424;
+	border: 1px solid transparent;
+	border-radius: 0px 10px 10px 0px;
+	padding: 18px 47px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 730px) {
+	.formControl {
+		max-width: 500px;
+	}
+
+	.formControl input {
+		max-width: 400px;
+	}
+
+	.submit {
+		max-width: 100px;
+		padding: 18px 0px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.formControl {
+		width: 350px;
+		margin: 0 auto;
+	}
+
+	.formControl input {
+		width: 250px;
+	}
+
+	.submit {
+		max-width: 100px;
+		padding: 18px 0px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.formControl {
+		max-width: 500px;
+	}
+
+	.formControl input {
+		max-width: 400px;
+	}
+
+	.submit {
+		max-width: 100px;
+		padding: 18px 0px;
+	}
+}
